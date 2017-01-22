@@ -26,7 +26,7 @@ How to Use:
 2. Switch to next tab cycled
 
 ~~~
-<leader>te
+<leader>tn
 ~~~
 
 3.
@@ -39,6 +39,8 @@ Close TabBar
 Open/Close TabBar
 ~~~<leader>tt~~~
 
+Tb_AutoUpdt
+~~~<leader>ta~~~
 ###TabBar commands
 :TbStart      //Open TabBar
 :TbStop       //Close TabBar

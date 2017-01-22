@@ -80,27 +80,27 @@ if ! hasmapto('1') || !hasmapto('<D-1>')
             inoremap <unique> <script> <D-0> <esc>:call <SID>Bf_SwitchTo( 10)<CR>:<BS>a
       else
             "NORMAL mode bindings for vim( terminal)
-            noremap <unique> <script> 1 :call <SID>Bf_SwitchTo( 1)<CR>:<BS>
-            noremap <unique> <script> 2 :call <SID>Bf_SwitchTo( 2)<CR>:<BS>
-            noremap <unique> <script> 3 :call <SID>Bf_SwitchTo( 3)<CR>:<BS>
-            noremap <unique> <script> 4 :call <SID>Bf_SwitchTo( 4)<CR>:<BS>
-            noremap <unique> <script> 5 :call <SID>Bf_SwitchTo( 5)<CR>:<BS>
-            noremap <unique> <script> 6 :call <SID>Bf_SwitchTo( 6)<CR>:<BS>
-            noremap <unique> <script> 7 :call <SID>Bf_SwitchTo( 7)<CR>:<BS>
-            noremap <unique> <script> 8 :call <SID>Bf_SwitchTo( 8)<CR>:<BS>
-            noremap <unique> <script> 9 :call <SID>Bf_SwitchTo( 9)<CR>:<BS>
-            noremap <unique> <script> 0 :call <SID>Bf_SwitchTo( 10)<CR>:<BS>
+            noremap <unique> <script> <leader>1 :call <SID>Bf_SwitchTo( 1)<CR>:<BS>
+            noremap <unique> <script> <leader>2 :call <SID>Bf_SwitchTo( 2)<CR>:<BS>
+            noremap <unique> <script> <leader>3 :call <SID>Bf_SwitchTo( 3)<CR>:<BS>
+            noremap <unique> <script> <leader>4 :call <SID>Bf_SwitchTo( 4)<CR>:<BS>
+            noremap <unique> <script> <leader>5 :call <SID>Bf_SwitchTo( 5)<CR>:<BS>
+            noremap <unique> <script> <leader>6 :call <SID>Bf_SwitchTo( 6)<CR>:<BS>
+            noremap <unique> <script> <leader>7 :call <SID>Bf_SwitchTo( 7)<CR>:<BS>
+            noremap <unique> <script> <leader>8 :call <SID>Bf_SwitchTo( 8)<CR>:<BS>
+            noremap <unique> <script> <leader>9 :call <SID>Bf_SwitchTo( 9)<CR>:<BS>
+            noremap <unique> <script> <leader>0 :call <SID>Bf_SwitchTo( 10)<CR>:<BS>
             "INSERT mode bindings for vim( terminal)
-            inoremap <unique> <script> 1 <esc>:call <SID>Bf_SwitchTo( 1)<CR>:<BS>a
-            inoremap <unique> <script> 2 <esc>:call <SID>Bf_SwitchTo( 2)<CR>:<BS>a
-            inoremap <unique> <script> 3 <esc>:call <SID>Bf_SwitchTo( 3)<CR>:<BS>a
-            inoremap <unique> <script> 4 <esc>:call <SID>Bf_SwitchTo( 4)<CR>:<BS>a
-            inoremap <unique> <script> 5 <esc>:call <SID>Bf_SwitchTo( 5)<CR>:<BS>a
-            inoremap <unique> <script> 6 <esc>:call <SID>Bf_SwitchTo( 6)<CR>:<BS>a
-            inoremap <unique> <script> 7 <esc>:call <SID>Bf_SwitchTo( 7)<CR>:<BS>a
-            inoremap <unique> <script> 8 <esc>:call <SID>Bf_SwitchTo( 8)<CR>:<BS>a
-            inoremap <unique> <script> 9 <esc>:call <SID>Bf_SwitchTo( 9)<CR>:<BS>a
-            inoremap <unique> <script> 0 <esc>:call <SID>Bf_SwitchTo( 10)<CR>:<BS>a
+            inoremap <unique> <script> <leader>1 <esc>:call <SID>Bf_SwitchTo( 1)<CR>:<BS>a
+            inoremap <unique> <script> <leader>2 <esc>:call <SID>Bf_SwitchTo( 2)<CR>:<BS>a
+            inoremap <unique> <script> <leader>3 <esc>:call <SID>Bf_SwitchTo( 3)<CR>:<BS>a
+            inoremap <unique> <script> <leader>4 <esc>:call <SID>Bf_SwitchTo( 4)<CR>:<BS>a
+            inoremap <unique> <script> <leader>5 <esc>:call <SID>Bf_SwitchTo( 5)<CR>:<BS>a
+            inoremap <unique> <script> <leader>6 <esc>:call <SID>Bf_SwitchTo( 6)<CR>:<BS>a
+            inoremap <unique> <script> <leader>7 <esc>:call <SID>Bf_SwitchTo( 7)<CR>:<BS>a
+            inoremap <unique> <script> <leader>8 <esc>:call <SID>Bf_SwitchTo( 8)<CR>:<BS>a
+            inoremap <unique> <script> <leader>9 <esc>:call <SID>Bf_SwitchTo( 9)<CR>:<BS>a
+            inoremap <unique> <script> <leader>0 <esc>:call <SID>Bf_SwitchTo( 10)<CR>:<BS>a
       endif
 endif " %%
 

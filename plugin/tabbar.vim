@@ -106,8 +106,8 @@ endif " %%
 
 
 " TabBar <Script> internal map ~~
-noremap <unique> <script> <leader>ts <Plug>tbstart  :call <SID>Tb_Start(1, -1)<CR>:<BS>
-noremap <unique> <script> <leader>te <Plug>tbstop   :call <SID>Tb_Stop(1)<CR>:<BS>
+noremap <unique> <script> <Plug>tbstart  :call <SID>Tb_Start(1, -1)<CR>:<BS>
+noremap <unique> <script> <Plug>tbstop   :call <SID>Tb_Stop(1)<CR>:<BS>
 noremap <unique> <script> <leader>ta <Plug>tbaut    :call <SID>Tb_Aup(-1)<CR>:<BS>
 noremap <unique> <script> <leader>tt <Plug>tbtoggle :call <SID>Tb_Toggle()<CR>:<BS>
 noremap <unique> <script> <leader>tn :call <SID>Bf_Cycle(1)<CR>:<BS>

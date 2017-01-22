@@ -30,17 +30,12 @@ How to Use:
 ~~~
 
 3.
-Open TabBar
-~~~<leader>ts~~~
-
-Close TabBar
-~~~<leader>te~~~
-
 Open/Close TabBar
 ~~~<leader>tt~~~
 
 Tb_AutoUpdt
 ~~~<leader>ta~~~
+
 ###TabBar commands
 :TbStart      //Open TabBar
 :TbStop       //Close TabBar
